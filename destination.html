@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - Heritage Tourism Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand-group">
+                <h1 class="site-title">Heritage Tourism Portal</h1>
+                <button class="nav-toggle" aria-label="Open navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <nav class="site-nav" aria-label="Primary">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="destination.html">Destinations</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <form class="search-bar" id="searchForm">
+                <input type="search" id="searchInput" name="q" placeholder="Search destinations..."
+                    aria-label="Search destinations">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-header">
+            <p class="eyebrow">Top Heritage Sites</p>
+            <h1>Popular Heritage Destinations</h1>
+            <p>Use the search bar to find your next cultural landmark or explore these iconic sites across India.</p>
+        </section>
+
+        <section class="search-results" id="searchResults"></section>
+
+        <section class="destinations" id="destinationList">
+            <article class="place" data-search="hawa mahal jaipur rajasthan palace of winds">
+                <h2>Hawa Mahal — Jaipur, Rajasthan</h2>
+                <figure>
+                    <img src="images/album.webp" alt="Hawa Mahal facade">
+                    <figcaption>Hawa Mahal (Palace of Winds)</figcaption>
+                </figure>
+                <p>Hawa Mahal, built in 1799, is known for its ornate windows and unique architecture that allowed cool
+                    air to pass through.</p>
+            </article>
+
+            <article class="place" data-search="konark sun temple odisha chariot stone carvings">
+                <h2>Konark Sun Temple — Odisha</h2>
+                <figure>
+                    <img src="images/img.webp" alt="Konark Sun Temple stone carvings">
+                    <figcaption>Konark Sun Temple</figcaption>
+                </figure>
+                <p>Built in the 13th century, Konark is designed like a giant chariot and is renowned for its stone
+                    carvings.</p>
+            </article>
+
+            <article class="place" data-search="qutub minar new delhi minaret unesco world heritage">
+                <h2>Qutub Minar — New Delhi</h2>
+                <figure>
+                    <img src="images/photo.webp" alt="Qutub Minar tower">
+                    <figcaption>Qutub Minar</figcaption>
+                </figure>
+                <p>Qutub Minar is the tallest brick minaret in the world and a UNESCO World Heritage Site.</p>
+            </article>
+
+            <article class="place" data-search="taj mahal agra uttar pradesh white marble shah jahan">
+                <h2>Taj Mahal — Agra, Uttar Pradesh</h2>
+                <figure>
+                    <img src="images/pic.webp" alt="Taj Mahal reflecting in water">
+                    <figcaption>Taj Mahal</figcaption>
+                </figure>
+                <p>The Taj Mahal, built by Emperor Shah Jahan in memory of Mumtaz Mahal, is famous for its white marble
+                    architecture.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>Heritage Tourism Portal · Explore India's rich heritage with beautiful destinations, local stories, and
+                travel inspiration.</p>
+            <nav class="footer-nav" aria-label="Footer">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="destination.html">Destinations</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

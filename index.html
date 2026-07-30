@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Heritage Tourism Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand-group">
+                <h1 class="site-title">Heritage Tourism Portal</h1>
+                <button class="nav-toggle" aria-label="Open navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <nav class="site-nav" aria-label="Primary">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="destination.html">Destinations</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <form class="search-bar" id="searchForm">
+                <input type="search" id="searchInput" name="q" placeholder="Search destinations..."
+                    aria-label="Search destinations">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Discover India</p>
+                <h2>Unlock the stories of India's heritage destinations.</h2>
+                <p>Explore monuments, palaces, temples and the stories behind them. Plan your trip with rich history,
+                    vivid culture, and timeless architecture.</p>
+                <p><a class="btn" href="destination.html">See Destinations</a></p>
+            </div>
+            <div class="hero-media">
+                <div class="slider" id="heroSlider">
+                    <div class="slide active">
+                        <img src="images/Ganesh-Pol-1536x1024.jpg" alt="Ganesh Pol gateway">
+                        <div class="slide-caption">Ganesh Pol gateway at the Amber Fort.</div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/album.webp" alt="Hawa Mahal facade">
+                        <div class="slide-caption">Hawa Mahal, the Palace of Winds.</div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/photo.webp" alt="Qutub Minar tower">
+                        <div class="slide-caption">Qutub Minar, a historic minaret.</div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-button prev" type="button" aria-label="Previous slide">‹</button>
+                    <button class="slider-button next" type="button" aria-label="Next slide">›</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>Heritage Tourism Portal · Explore India's rich heritage with beautiful destinations, local stories, and
+                travel inspiration.</p>
+            <nav class="footer-nav" aria-label="Footer">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="destination.html">Destinations</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

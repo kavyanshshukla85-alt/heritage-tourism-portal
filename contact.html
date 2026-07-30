@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Heritage Tourism Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand-group">
+                <h1 class="site-title">Heritage Tourism Portal</h1>
+                <button class="nav-toggle" aria-label="Open navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <nav class="site-nav" aria-label="Primary">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="destination.html">Destinations</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <form class="search-bar" id="searchForm">
+                <input type="search" id="searchInput" name="q" placeholder="Search destinations..."
+                    aria-label="Search destinations">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <main class="container contact-page">
+        <section class="page-header">
+            <p class="eyebrow">Get in Touch</p>
+            <h1>Contact Us</h1>
+            <p>Send us your details and your preferred travel interests. We save your contact details locally so you can
+                return without retyping.</p>
+        </section>
+
+        <section class="form-section">
+            <form id="contactForm" class="contact-form">
+                <div class="form-row">
+                    <label for="username">Name</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your name" required>
+                </div>
+                <div class="form-row">
+                    <label for="age">Age</label>
+                    <input type="text" id="age" name="age" placeholder="Enter your age">
+                </div>
+                <div class="form-row">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+                </div>
+                <div class="form-row radio-row">
+                    <label>Gender</label>
+                    <div class="radio-group">
+                        <label for="male">
+                            <input type="radio" id="male" name="gender" value="male"> Male
+                        </label>
+                        <label for="female">
+                            <input type="radio" id="female" name="gender" value="female"> Female
+                        </label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Share your travel interest"></textarea>
+                </div>
+                <div class="form-row form-actions">
+                    <button type="submit">Save details</button>
+                </div>
+                <div class="form-message" id="formMessage"></div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>Heritage Tourism Portal · Explore India's rich heritage with beautiful destinations, local stories, and
+                travel inspiration.</p>
+            <nav class="footer-nav" aria-label="Footer">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="destination.html">Destinations</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
